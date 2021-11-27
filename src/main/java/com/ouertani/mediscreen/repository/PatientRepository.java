@@ -12,6 +12,8 @@ import java.util.List;
 @CrossOrigin("http://localhost:4200")
 public interface PatientRepository extends JpaRepository<Patient, Long> {
 
+    Page<Patient> findByPhone(@Nullable String phone, Pageable pageable);
+
     Page<Patient> findByLastNameLikeIgnoreCase(@Nullable String lastName, Pageable pageable);
 
 }

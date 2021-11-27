@@ -46,7 +46,7 @@ public class Patient {
 
     //@Digits(message = "Numero de telephone doit etre numerique", integer = 10, fraction = 0)
     //@Length(message = "Le numér de téléphone doit etre sur 10 caractères", min = 10, max = 10)
-    @Column(name = "phone", length = 10)
+    @Column(name = "phone", length = 10, unique = true)
     private String phone;
 
 }
