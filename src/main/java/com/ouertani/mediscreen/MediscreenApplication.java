@@ -8,6 +8,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 // TODO : Controler les doublons
 // TODO : Gerer les messages d'erreur
 // TODO : Gerer l'authentification
+// TODO : Delete patient must delete comment related to this patient first
+// TODO : Changer le logo de l'application
+// TODO : Connexion ID hidden
+// TODO : Data init
 
 
 @SpringBootApplication
