@@ -12,7 +12,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 // TODO : Changer le logo de l'application
 // TODO : Connexion ID hidden
 // TODO : Data init
-
+// TODO : README
 
 @SpringBootApplication
 public class MediscreenApplication {
